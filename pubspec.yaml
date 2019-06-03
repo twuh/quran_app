@@ -55,6 +55,8 @@ dev_dependencies:
   intl: ^0.15.7
   flutter_launcher_icons: ^0.7.0
 
+dependency_overrides:
+  image: 2.0.7
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
 
@@ -98,6 +100,7 @@ flutter:
   
   # For details regarding fonts from package dependencies,
   # see https://flutter.io/custom-fonts/#from-packages
+
 
 flutter_icons:
   android: true
