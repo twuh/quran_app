@@ -162,7 +162,7 @@ class MyAppModel extends Model {
   Locale locale;
 
   List<Locale> supportedLocales = [
-    // Locale('en'),
+    Locale('en'),
     Locale('id'),
   ];
 
