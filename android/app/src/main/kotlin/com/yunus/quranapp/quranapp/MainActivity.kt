@@ -1,4 +1,4 @@
-package com.yunus.quranapp.quranapp
+package me.twuh.quran
 
 import android.os.Bundle
 

@@ -30,11 +30,27 @@ class _AboutScreenState extends State<AboutScreen> {
               ) {
                 return Container(
                   margin: EdgeInsets.all(10),
-                  child: Text(
-                    'Version: ${value.version.toString()}',
-                    style: TextStyle(
-                      fontSize: 18,
-                    ),
+                  child: Column(
+                    children: <Widget>[
+                      Text(
+                        'Version: ${value.version.toString()}',
+                        style: TextStyle(
+                          fontSize: 18,
+                        ),
+                      ),
+                      Text(
+                        'Developer: Yusufefendi52',
+                        style: TextStyle(
+                          fontSize: 18,
+                        ),
+                      ),
+                      Text(
+                        'Forked and Distributed by: Twuh Inc',
+                        style: TextStyle(
+                          fontSize: 18,
+                        ),
+                      ),
+                    ],
                   ),
                 );
               },
